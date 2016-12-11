@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A56A9DC01DFD36DF003F837E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A9DB71DFD36DF003F837E /* AppDelegate.swift */; };
+		A56A9DC11DFD36DF003F837E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56A9DB91DFD36DF003F837E /* Assets.xcassets */; };
+		A50CEA4E1DFD3288008BF23D /* CielaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CEA4B1DFD3288008BF23D /* CielaTests.swift */; };
+		A50CEA551DFD328D008BF23D /* CielaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CEA511DFD328D008BF23D /* CielaUITests.swift */; };
+		A56A9DC21DFD36DF003F837E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56A9DBA1DFD36DF003F837E /* LaunchScreen.storyboard */; };
+		A56A9DC31DFD36DF003F837E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56A9DBC1DFD36DF003F837E /* Main.storyboard */; };
+		A56A9DC51DFD36DF003F837E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A9DBF1DFD36DF003F837E /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50CEA061DFD319D008BF23D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50CE9E91DFD319D008BF23D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50CE9F01DFD319D008BF23D;
+			remoteInfo = Ciela;
+		};
+		A50CEA111DFD319D008BF23D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50CE9E91DFD319D008BF23D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50CE9F01DFD319D008BF23D;
+			remoteInfo = Ciela;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A56A9DB71DFD36DF003F837E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A56A9DB91DFD36DF003F837E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A50CE9F11DFD319D008BF23D /* Ciela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ciela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50CEA4B1DFD3288008BF23D /* CielaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CielaTests.swift; sourceTree = "<group>"; };
+		A50CEA511DFD328D008BF23D /* CielaUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CielaUITests.swift; sourceTree = "<group>"; };
+		A50CEA101DFD319D008BF23D /* Features.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Features.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50CEA4D1DFD3288008BF23D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50CEA531DFD328D008BF23D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56A9DBE1DFD36DF003F837E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50CEA051DFD319D008BF23D /* Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56A9DBF1DFD36DF003F837E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A56A9DBB1DFD36DF003F837E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A56A9DBD1DFD36DF003F837E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50CE9EE1DFD319D008BF23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CEA021DFD319D008BF23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CEA0D1DFD319D008BF23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50CE9E81DFD319D008BF23D = {
+			isa = PBXGroup;
+			children = (
+				A50CEA501DFD328D008BF23D /* Features */,
+				A50CE9F21DFD319D008BF23D /* Products */,
+				A56A9DB61DFD36DF003F837E /* Source */,
+				A50CEA4A1DFD3288008BF23D /* Specs */,
+			);
+			sourceTree = "<group>";
+		};
+		A50CE9F21DFD319D008BF23D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50CE9F11DFD319D008BF23D /* Ciela.app */,
+				A50CEA101DFD319D008BF23D /* Features.xctest */,
+				A50CEA051DFD319D008BF23D /* Specs.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50CEA4A1DFD3288008BF23D /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				A50CEA4B1DFD3288008BF23D /* CielaTests.swift */,
+				A50CEA4C1DFD3288008BF23D /* SupportingFiles */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		A50CEA4C1DFD3288008BF23D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A50CEA4D1DFD3288008BF23D /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A50CEA501DFD328D008BF23D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A50CEA511DFD328D008BF23D /* CielaUITests.swift */,
+				A50CEA521DFD328D008BF23D /* SupportingFiles */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A50CEA521DFD328D008BF23D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A50CEA531DFD328D008BF23D /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A56A9DB61DFD36DF003F837E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A56A9DB71DFD36DF003F837E /* AppDelegate.swift */,
+				A56A9DBF1DFD36DF003F837E /* ViewController.swift */,
+				A56A9DB81DFD36DF003F837E /* SupportingFiles */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A56A9DB81DFD36DF003F837E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A56A9DB91DFD36DF003F837E /* Assets.xcassets */,
+				A56A9DBE1DFD36DF003F837E /* Info.plist */,
+				A56A9DBA1DFD36DF003F837E /* LaunchScreen.storyboard */,
+				A56A9DBC1DFD36DF003F837E /* Main.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50CE9F01DFD319D008BF23D /* Ciela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50CEA191DFD319E008BF23D /* Build configuration list for PBXNativeTarget "Ciela" */;
+			buildPhases = (
+				A56C43BA1DFD3D2D00469736 /* Sort Project File */,
+				A56A9DB51DFD35B7003F837E /* Lint Source */,
+				A50CE9ED1DFD319D008BF23D /* Sources */,
+				A50CE9EE1DFD319D008BF23D /* Frameworks */,
+				A50CE9EF1DFD319D008BF23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ciela;
+			productName = Ciela;
+			productReference = A50CE9F11DFD319D008BF23D /* Ciela.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50CEA041DFD319D008BF23D /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50CEA1C1DFD319E008BF23D /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				A50CEA011DFD319D008BF23D /* Sources */,
+				A50CEA021DFD319D008BF23D /* Frameworks */,
+				A50CEA031DFD319D008BF23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50CEA071DFD319D008BF23D /* PBXTargetDependency */,
+			);
+			name = Specs;
+			productName = CielaTests;
+			productReference = A50CEA051DFD319D008BF23D /* Specs.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A50CEA0F1DFD319D008BF23D /* Features */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50CEA1F1DFD319E008BF23D /* Build configuration list for PBXNativeTarget "Features" */;
+			buildPhases = (
+				A50CEA0C1DFD319D008BF23D /* Sources */,
+				A50CEA0D1DFD319D008BF23D /* Frameworks */,
+				A50CEA0E1DFD319D008BF23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50CEA121DFD319D008BF23D /* PBXTargetDependency */,
+			);
+			name = Features;
+			productName = CielaUITests;
+			productReference = A50CEA101DFD319D008BF23D /* Features.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50CE9E91DFD319D008BF23D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = g.unkyard;
+				TargetAttributes = {
+					A50CE9F01DFD319D008BF23D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GAV3HJNSJX;
+						ProvisioningStyle = Automatic;
+					};
+					A50CEA041DFD319D008BF23D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GAV3HJNSJX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A50CE9F01DFD319D008BF23D;
+					};
+					A50CEA0F1DFD319D008BF23D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GAV3HJNSJX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A50CE9F01DFD319D008BF23D;
+					};
+				};
+			};
+			buildConfigurationList = A50CE9EC1DFD319D008BF23D /* Build configuration list for PBXProject "Ciela" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50CE9E81DFD319D008BF23D;
+			productRefGroup = A50CE9F21DFD319D008BF23D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50CE9F01DFD319D008BF23D /* Ciela */,
+				A50CEA041DFD319D008BF23D /* Specs */,
+				A50CEA0F1DFD319D008BF23D /* Features */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50CE9EF1DFD319D008BF23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56A9DC11DFD36DF003F837E /* Assets.xcassets in Resources */,
+				A56A9DC21DFD36DF003F837E /* LaunchScreen.storyboard in Resources */,
+				A56A9DC31DFD36DF003F837E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CEA031DFD319D008BF23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CEA0E1DFD319D008BF23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A56A9DB51DFD35B7003F837E /* Lint Source */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Lint Source";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/env rake swiftlint";
+		};
+		A56C43BA1DFD3D2D00469736 /* Sort Project File */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Sort Project File";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if hash perl 2>/dev/null; then\nperl ./.sort-project ${PROJECT_NAME}.xcodeproj/project.pbxproj\nfi\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50CE9ED1DFD319D008BF23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56A9DC01DFD36DF003F837E /* AppDelegate.swift in Sources */,
+				A56A9DC51DFD36DF003F837E /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CEA011DFD319D008BF23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50CEA4E1DFD3288008BF23D /* CielaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CEA0C1DFD319D008BF23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50CEA551DFD328D008BF23D /* CielaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50CEA071DFD319D008BF23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50CE9F01DFD319D008BF23D /* Ciela */;
+			targetProxy = A50CEA061DFD319D008BF23D /* PBXContainerItemProxy */;
+		};
+		A50CEA121DFD319D008BF23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50CE9F01DFD319D008BF23D /* Ciela */;
+			targetProxy = A50CEA111DFD319D008BF23D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A56A9DBA1DFD36DF003F837E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56A9DBB1DFD36DF003F837E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A56A9DBC1DFD36DF003F837E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56A9DBD1DFD36DF003F837E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A50CEA171DFD319D008BF23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A50CEA181DFD319D008BF23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50CEA1A1DFD319E008BF23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GAV3HJNSJX;
+				INFOPLIST_FILE = Source/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.gunkyard.Ciela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A50CEA1B1DFD319E008BF23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GAV3HJNSJX;
+				INFOPLIST_FILE = Source/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.gunkyard.Ciela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A50CEA1D1DFD319E008BF23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GAV3HJNSJX;
+				INFOPLIST_FILE = Specs/SupportingFIles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.gunkyard.CielaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ciela.app/Ciela";
+			};
+			name = Debug;
+		};
+		A50CEA1E1DFD319E008BF23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GAV3HJNSJX;
+				INFOPLIST_FILE = Specs/SupportingFIles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.gunkyard.CielaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ciela.app/Ciela";
+			};
+			name = Release;
+		};
+		A50CEA201DFD319E008BF23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GAV3HJNSJX;
+				INFOPLIST_FILE = Features/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.gunkyard.CielaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ciela;
+			};
+			name = Debug;
+		};
+		A50CEA211DFD319E008BF23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GAV3HJNSJX;
+				INFOPLIST_FILE = Features/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.gunkyard.CielaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ciela;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50CE9EC1DFD319D008BF23D /* Build configuration list for PBXProject "Ciela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50CEA171DFD319D008BF23D /* Debug */,
+				A50CEA181DFD319D008BF23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50CEA191DFD319E008BF23D /* Build configuration list for PBXNativeTarget "Ciela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50CEA1A1DFD319E008BF23D /* Debug */,
+				A50CEA1B1DFD319E008BF23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50CEA1C1DFD319E008BF23D /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50CEA1D1DFD319E008BF23D /* Debug */,
+				A50CEA1E1DFD319E008BF23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50CEA1F1DFD319E008BF23D /* Build configuration list for PBXNativeTarget "Features" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50CEA201DFD319E008BF23D /* Debug */,
+				A50CEA211DFD319E008BF23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50CE9E91DFD319D008BF23D /* Project object */;
+}
