@@ -1,0 +1,4 @@
+github "Quick/Quick" ~> 1.0.0          # as of Dec. 11, 2016
+github "Quick/Nimble" ~> 5.1.0         # as of Dec. 11, 2016
+github "typelift/SwiftCheck" ~> 0.7.2  # as of Dec. 11, 2016
+
